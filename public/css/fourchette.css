@@ -1,0 +1,67 @@
+h3{
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50.8%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2em;
+}
+
+.textToWin {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: rgb(150, 241, 14);
+    font-size: 3em;
+    text-shadow: 2px 2px 4px black; /* Ajout d'une ombre textuelle plus prononcée */
+}
+
+
+
+.animateText {
+    font-size: 6em;
+    transition: font-size 1s ease-in-out; /* Animation de la taille de police sur 0.5 secondes */
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 45%;
+    left: 50.8%;
+    transform: translate(-50%, -50%);
+}
+
+
+         
+.btn-grad {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    
+  }
+
+ .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+

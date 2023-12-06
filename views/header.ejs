@@ -1,0 +1,21 @@
+<head>
+    <meta charset="UTF-8">
+    <title>GameHub</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  
+  <body>
+    <header>
+      <h3>GameHub</h3>
+      <nav>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <% for (const game of gameData) { %>
+            <li><a href="/game/<%= game.name %>"><%= game.title %></a></li> <!-- Ajoutez le texte du lien ici -->
+          <% } %>
+        </ul>
+    </nav>
+    </header>
+
+
+   

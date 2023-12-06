@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>GameHub</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/fourchette.css">
+</head>
+<body>
+  
+    
+    <%- include('header.ejs') %>
+ 
+
+  <h3>Jeu De La Fourchette</h3>
+    <p class="textToWin" id="messageParagraph"></p>
+    <label for="userInput">Quel est le nombre à trouver ?</label>
+    <input type="number" id="userInput" placeholder="Entrez un nombre">
+    <button class="btn-grad" onclick="checkNumber()">Vérifier</button>
+ 
+
+
+  <script src="/js/fourchette.js"></script>
+</body>
+</html>
