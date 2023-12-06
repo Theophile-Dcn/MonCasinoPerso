@@ -7,7 +7,7 @@ const router = Router();
 console.log("router hello");
 // Paramétrage des urls
 // à une url donnée va correspondre une méthode dans le controller
-router.get("/",controller.displayHomepage);
+router.get("github.com/Theophile-Dcn/MonCasinoPerso/",controller.displayHomepage);
 
 // Express permet de définir ce qui est appelé des routes paramétrées
 // une route paramétrée est une route qui contient au moins un paramètre
@@ -21,6 +21,6 @@ router.get("/",controller.displayHomepage);
 // // Notre route vers fourchette
 // router.get("/game/fourchette",controller.displayFourchette);
 // route dynamique
-router.get("/game/:nomDuJeu", controller.displayGame);
+router.get("theophile-dcn.github.io/MonCasinoPerso/:nomDuJeu", controller.displayGame);
 // Export du router
 module.exports = router;
